@@ -1,0 +1,10 @@
+create table t_paginas
+(
+ Id int,
+ Sitio varchar(50),
+ TSitio float,
+ VSitio float,
+ PTrafico float,
+ TSitios float
+)
+ 

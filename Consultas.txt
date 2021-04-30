@@ -1,0 +1,8 @@
+//Muestra el total de registros de la tabla//
+select count(*) As Total_Registros from t_paginas;
+
+//Filtrar registros por pagina o utilizar where//
+select * from t_paginas where Sitio LIKE 'Yahoo.com%';
+
+//Promedio del campo //
+SELECT AVG(ALL TSitios) As Promedio FROM t_paginas;

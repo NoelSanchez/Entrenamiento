@@ -1,0 +1,12 @@
+BULK 
+INSERT t_paginas
+from 'C:\Users\Admin\Downloads\pag.csv' 
+WITH 
+    ( 
+        FIRSTROW = 1, 
+        MAXERRORS = 0, 
+        FIELDTERMINATOR = ',', 
+        ROWTERMINATOR = '\n' 
+    )
+    
+select * from t_paginas;
